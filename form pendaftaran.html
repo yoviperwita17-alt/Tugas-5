@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form PEndaftaran</title>
+</head>
+<body>
+  <h3>Form Pendaftaran</h3>
+  <form>
+    <fieldset>
+      <legend>Pendaftaran siswa</legend>
+      <label for="name"> Nama lengkap</label>
+      <input type="text" id="NIS" name="NIS" placeholder="Masukan nama lengkap" required><br><br>
+
+      <label for="NIS">NIS</label>
+      <input type="text" id="NIS" name="NIS" placeholder="Masukan NIS" required><br>
+
+      <label>Jenis Kelamin</label>
+      <input type="radio" name="jk" value="L">Laki-Laki
+      <input type="radio" name="jk" value="P">Perempuan<br><br>
+
+      <label for="jurusan">pilihan jurusan</label>
+      <select id="jurusan" name="jurusan" required>
+        <option value="">--pilihan jurusan></option>
+        <option value="TSM">Teknik Sepeda Motor [TSM]</option>
+        <option value="PPLG">Perkembangan Perangkat Lunak dan Gim [PPLG]</option>
+        <option value="TKJ">Teknik Komputer & Jaringan</option>
+      </select><br><br>
+
+      <label for="Alamat">Alamat Lengkap</label><br>
+      <textarea name="Alamat" id="Alamat" rows="4" cols="40" placeholder="Tuliskan alamat rumah lengkap disini"></textarea><br><br>
+
+      <label>Foto:</label>
+      <input type="file" name="Choose file" accept="image"><br><br>
+      <input type="checkbox" name="id" value="saya menetujui data yang saya masukan">saya menetujuidata yang saya masukan<br><br>
+
+      <input type="submit" value="Daftar" formaction="table.html">
+      <input type="reset" value="Reset">
+      
+    </fieldset>
+  </form>
+</body>
+</html>
